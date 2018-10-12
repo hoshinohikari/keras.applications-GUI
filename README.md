@@ -17,7 +17,7 @@
 
 准备
 ------
-使用该Python文件，你需要在系统中安装：anaconda、以TensorFlow为后端的keras、OpenCv。本程序测试通过环境为：Anaconda 5.1.0 + TensorFlow 1.8.0 + Keras 2.2.0 + opencv-python 3.4.1.15 + ArchLinux以及Anaconda 5.1.0 + TensorFlow 1.8.0 + Keras 2.2.0 + opencv-python 3.4.1.15 + Windows 10。注意，本文件路径以及输入图片路径不可为中文。
+使用该Python文件，你需要在系统中安装：anaconda、以TensorFlow为后端的keras、OpenCv。本程序测试通过环境为：Anaconda 5.1.0 + TensorFlow 1.8.0 + Keras 2.2.0 + opencv-python 3.4.1.15 + ArchLinux以及Anaconda 5.1.0 + TensorFlow 1.8.0 + Keras 2.2.0 + opencv-python 3.4.1.15 + Windows 10。注意，本文件路径以及输入图片路径不可为中文。 
 2018.10.12通过anaconda 5.2.0 + TensorFlow 1.8.0 + Keras 2.2.2 + opencv-python 3.4.3.18 + ArchLinux 以及 anaconda2 5.2.0 + TensorFlow 1.8.0 + Keras 2.2.4 + opencv-python 3.4.3.18 + ArchLinux 。
 
 运行
