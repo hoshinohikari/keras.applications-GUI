@@ -28,11 +28,11 @@ def selectPath():
 
 def clickMe():
   MODELS = {
-	"VGG16": VGG16,
-	"VGG19": VGG19,
-	"InceptionV3": InceptionV3,
-	"Xception": Xception, # TensorFlow ONLY
-	"ResNet50": ResNet50
+    "VGG16": VGG16,
+    "VGG19": VGG19,
+    "InceptionV3": InceptionV3,
+    "Xception": Xception, # TensorFlow ONLY
+    "ResNet50": ResNet50
   }
 
   if number.get() in ("InceptionV3", "Xception"):
@@ -62,7 +62,7 @@ def clickMe():
   orig = cv2.imread(pa)
   (imagenetID, label, prob) = P[0][0]
   cv2.putText(orig, "Label: {}, {:.2f}%".format(label, prob * 100),
-	(10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 0, 255), 2)
+    (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 0, 255), 2)
   cv2.imshow("Classification", orig)
   cv2.waitKey(0)
 
